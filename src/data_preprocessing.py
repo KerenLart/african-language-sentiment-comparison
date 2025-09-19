@@ -1,6 +1,3 @@
-# Data Preprocessing Pipeline
-# Save as src/data_preprocessing.py
-
 import pandas as pd
 import numpy as np
 import re
@@ -220,8 +217,3 @@ if __name__ == "__main__":
     print("\nSaving processed data...")
     preprocessor.save_processed_data(traditional_data, bert_data)
     
-    print("\nPreprocessing complete!")
-    print("\nNext steps:")
-    print("1. Implement traditional ML models (Naive Bayes, SVM)")
-    print("2. Implement BERT fine-tuning")
-    print("3. Create evaluation framework")
